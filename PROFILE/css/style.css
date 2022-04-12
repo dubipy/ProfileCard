@@ -63,3 +63,17 @@ body {
     color: #bbb;
     margin-bottom: 30px;
 }
+
+.wrap .profile .btnView {
+    display: block;
+    width: 180px;
+    height: 32px;
+    margin: 0 auto 20px;
+    background: linear-gradient(45deg, aqua, rgb(129, 188, 211));
+    box-shadow: 5px 10px 20px rgba(0, 255, 255, .5);
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, .6);
+    text-decoration: none;
+    font: bold 12px/32px "arial";
+    color: #fff;
+    border-radius: 16px;
+}

@@ -77,3 +77,31 @@ body {
     color: #fff;
     border-radius: 16px;
 }
+
+
+.wrap .contact li {
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.wrap .contact li:last-child {
+    border-bottom: none;
+}
+
+
+.wrap .contact li i {
+    width: 30%;
+    text-align: center;
+    color: #555;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #ddd;
+}
+
+.wrap .contact li span {
+    font: 11px/1 "arial";
+    color: #555;
+    letter-spacing: 1px;
+}
+
+

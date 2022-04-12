@@ -104,4 +104,41 @@ body {
     letter-spacing: 1px;
 }
 
+.wrap .others {
+    text-align: center;
+    font-size: 0px;
+    margin: 20px;
+}
+
+.wrap .others a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: gray;
+    border-radius: 50%;
+    margin: 0 10px;
+    opacity: 0.5;
+}
+
+/* .wrap .others a.on {
+    opacity: 1;
+} */
+
+.wrap .others a:nth-of-type(1) {
+    background: linear-gradient(45deg, #ee9ca7,#ffdde1);
+    box-shadow: 5px 5px 10px #ee9ca7;
+}
+
+.wrap .others a:nth-of-type(2) {
+    background: linear-gradient(45deg, #56CCF2,#2F80ED);
+    box-shadow: 5px 5px 10px #396afc;
+}
+.wrap .others a:nth-of-type(3) {
+    background: linear-gradient(45deg, #C02425, #F0CB35);
+    box-shadow: 5px 5px 10px #F3904F;
+}
+.wrap .others a:nth-of-type(4) {
+    background: linear-gradient(45deg, #83a4d4, #b6fbff);
+    box-shadow: 5px 5px 10px #83a4d4;
+}
 

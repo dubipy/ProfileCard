@@ -39,3 +39,27 @@ body {
     float: right;
 }
 
+.wrap .profile {
+    width: 100%;
+    text-align: center;
+}
+
+.wrap .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 5px 15px 30px rgb(135, 206, 235,0.8);
+    margin-bottom: 20px;
+}
+
+.wrap .profile h1 {
+    font: bold 22px/1 "arial";
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.wrap .profile p {
+    font:  12px/1 "arial";
+    color: #bbb;
+    margin-bottom: 30px;
+}
